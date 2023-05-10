@@ -1,0 +1,929 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo h1 {
+    font-family: 'Rye', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: darkblue;
+}
+
+.logo h1:hover {
+    font-size: 52px;
+}
+
+.head {
+    background: linear-gradient(skyblue, violet);
+    /* border:2px solid red; */
+}
+
+.logo img {
+    margin-left: 38px;
+}
+
+ul li {
+    padding-left: 30px;
+    margin-left: 50px;
+}
+
+.nav-line a {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: darkblue;
+    /* border:2px solid red; */
+}
+
+.nav-line a:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    color: aqua;
+}
+
+.nav-line {
+    display: flex;
+}
+
+.f1 {
+    font-size: 38px;
+    color: azure
+}
+
+.tag {
+    position: sticky;
+    top: 0px;
+}
+
+.tag h3 {
+    font-family: 'Lobster', cursive;
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+
+    /* border:2px solid green; */
+}
+
+.bg-search {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2015/05/Plane-on-the-beach.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    /* border: 5px solid green; */
+}
+
+.bg-search h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    color: white;
+    /* color:rgb(5, 5, 61); */
+
+    /* border:2px solid white; */
+    text-align: center;
+    padding-top: 60px;
+}
+
+.bg-search h2:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 52px;
+}
+
+
+.bg-search p {
+    margin: 50px;
+    padding-top: 20px;
+    font-family: 'Kite One', sans-serif;
+    font-size: 28px;
+    /* color:rgb(5, 5, 61); */
+    text-align: center;
+}
+
+.input1 {
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid white;
+    margin-top: 97px;
+
+}
+
+.form-text {
+    width: 700px;
+    /* border:3px solid violet; */
+    margin-left: 450px;
+
+
+}
+
+.destinations h2 {
+    font-family: 'Kite One', sans-serif;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    background: linear-gradient(skyblue, violet);
+}
+
+.destinations h2:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.carousel-explain {
+    display: flex;
+}
+
+.words {
+    background-color: rgba(204, 198, 198, .56);
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    /* border:2px solid yellow; */
+}
+
+.words h2 {
+    padding-top: 50px;
+    /* padding-bottom:50px; */
+    color: brown;
+    /* border:2px solid red; */
+    font-size: 40px;
+}
+
+.words h2:hover {
+    font-size: 52px;
+    text-decoration: underline;
+}
+
+.words p {
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/*  */
+.image {
+    position: relative;
+    width: 50%;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+    ;
+}
+
+/*  */
+.top-attaractions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: lightcyan;
+    margin: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    /* border:4px solid white; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border-radius: 50%; */
+
+}
+
+.card-img-top:hover {
+    height: 260px;
+
+}
+
+.card-title {
+    /* border:2px solid blue; */
+    font-family: 'Monoton', cursive;
+    font-size: 23px;
+    /* color:blue; */
+    text-align: center;
+
+}
+
+.card-title:hover {
+    font-size: 25px;
+    text-decoration: underline;
+    color: brown;
+}
+
+.card-text {
+    color: darkslategray;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+/* button-singapore attractions */
+#btnatt-s1 {
+    /* display: block; */
+    width: 150px;
+    /* margin: auto; */
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#btnatt-s2 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#btnatt-s3 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 134px;
+}
+
+#btnatt-s4 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#btnatt-s5 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 51px;
+}
+
+/* attractions malasia-button */
+#btnatt-m1 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 163px;
+}
+
+#btnatt-m2 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 135px;
+}
+
+#btnatt-m3 {
+    width: 150px;
+    margin-left: 20px;
+    /* margin-top: 30px; */
+}
+
+#btnatt-m4 {
+    width: 150px;
+    margin-left: 20px;
+    /* margin-top: 30px; */
+}
+
+#btnatt-m5 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 244px;
+}
+
+/* Usa attracrions button */
+#btnatt-u1 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 191px;
+}
+
+#btnatt-u2 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 164px;
+}
+
+#btnatt-u3 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 165px;
+}
+
+#btnatt-u4 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 135px;
+}
+
+#btnatt-u5 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+.video {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photos {
+    position: relative;
+    /* height:300px; */
+    width: 300px;
+    margin: 12px;
+    /* border:5px solid lightgoldenrodyellow; */
+    /* border-radius: 20px; */
+}
+
+.gal-photos {
+    background-color: rgb(162, 223, 245);
+}
+
+.gallery {
+    display: flex;
+    /* justify-content: space-be; */
+
+    /* margin-bottom: 0px; */
+    /* background-color: rgb(7, 7, 7); */
+}
+
+/* .image__imggal{
+width:
+} */
+.image__overlaygal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    /* text-align:center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.image__overlaygal:hover {
+    opacity: 1;
+}
+
+.image__titlegal {
+    font-size: 20px;
+}
+
+.list-group {
+    /* width:800px;
+    display: block;
+    margin: auto; */
+    margin-left: 300px;
+}
+
+.list {
+    color: darkslategray;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    /* margin:10px; */
+    padding: 30px;
+}
+
+/* ************************* phone ************************************** */
+@media only screen and (max-width:500px) {
+
+    /* navbar */
+    .logo h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .logo img {
+        width: 80px;
+        display: block;
+        margin: auto;
+    }
+
+    .nav-line a {
+        font-size: 14px;
+        font-weight: 600;
+        /* border:2px solid red; */
+    }
+
+    .nav-line a:hover {
+        font-size: 16px;
+    }
+
+    .f1 {
+        font-size: 18px;
+    }
+
+    /* sticky tag line */
+    .tag h3 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        /* border:2px solid green; */
+    }
+
+    .tag {
+        position: sticky;
+        top: 0px;
+    }
+
+    /* bg */
+    .bg-search {
+        width: 100%;
+        height: 280px;
+        opacity: .9;
+        /* border: 5px solid green; */
+    }
+
+    .bg-search h2 {
+        font-size: 25px;
+        /* border:2px solid white; */
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .bg-search h2:hover {
+        font-size: 27px;
+    }
+
+    .bg-search p {
+        margin: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+    /* Attractive destination */
+
+    .destinations h2 {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .carousel-explain {
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+
+    .words h2 {
+        padding-top: 10px;
+        color: brown;
+        /* border:2px solid red; */
+        font-size: 18px;
+    }
+
+    .words h2:hover {
+        font-size: 20px;
+    }
+
+    .words p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /* image */
+    .image {
+        position: relative;
+        width: 50%;
+        height: 300px;
+        /* border: 2px solid blue ; */
+    }
+
+    .image__img {
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+
+    .image__title {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .image__description {
+        font-size: .5em;
+        margin-top: 0.25em;
+        ;
+    }
+
+    /*top attractions  */
+    .top-attaractions {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .card {
+        margin: 5px;
+        /* text-align: ; */
+    }
+
+    .card-img-top {
+        height: 200px;
+        /* border:4px solid white; */
+    }
+
+    .card-img-top:hover {
+        height: 210px;
+
+    }
+
+    .card-title {
+        /* border:2px solid blue; */
+        font-size: 18px;
+    }
+
+    .card-title:hover {
+        font-size: 20px;
+    }
+
+    .card-text {
+        color: darkslategray;
+        font-family: 'Itim', cursive;
+        font-size: 15px;
+
+    }
+
+    /* button-singapore attractions */
+    #btnatt-s1,
+    #btnatt-s2 {
+        width: 110px;
+        margin-top: 40px;
+    }
+
+    #btnatt-s3 {
+        width: 110px;
+        margin-top: 55px;
+    }
+
+    #btnatt-s4,
+    #btnatt-s5 {
+        width: 110px;
+        margin-top: 50px;
+    }
+
+
+
+    /* attractions malasia-button */
+    #btnatt-m1,
+    #btnatt-m2,
+    #btnatt-m3,
+    #btnatt-m4,
+    #btnatt-m5 {
+        width: 110px;
+        margin-top: 40px;
+    }
+
+    /* Usa attracrions button */
+    #btnatt-u1,
+    #btnatt-u2,
+    #btnatt-u3 {
+        width: 110px;
+        margin-top: 48px;
+    }
+
+    #btnatt-u4 {
+        width: 110px;
+        margin-top: 54px;
+    }
+
+    #btnatt-u5 {
+        width: 110px;
+        margin-top: 50px;
+    }
+
+    /* youtube videos */
+
+    .video {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photos {
+        position: relative;
+        width: 300px;
+        margin: 12px;
+
+    }
+
+    .gallery {
+        /* display: flex; */
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image__titlegal {
+        font-size: 12px;
+    }
+
+    .list-group {
+        width: 300px;
+
+        margin-left: 30px;
+    }
+
+    .list {
+
+        font-size: 15px;
+        /* margin:10px; */
+        padding: 30px;
+    }
+}
+
+
+/* ***************************** tablet ************************************* */
+@media (min-width:500px) and (max-width:990px) {
+    .logo h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .logo img {
+        width: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .nav-line a {
+        font-size: 20px;
+        font-weight: 600;
+        /* border:2px solid red; */
+    }
+
+    .nav-line a:hover {
+        font-size: 21px;
+    }
+
+    .f1 {
+        font-size: 22px;
+    }
+
+    /* sticky tag line */
+    .tag h3 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        /* border:2px solid green; */
+    }
+
+    .tag {
+        position: sticky;
+        top: 0px;
+    }
+
+    /* bg */
+    .bg-search {
+        width: 100%;
+        height: 320px;
+        opacity: .9;
+        /* border: 5px solid green; */
+    }
+
+    .bg-search h2 {
+        font-size: 30px;
+        /* border:2px solid white; */
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .bg-search h2:hover {
+        font-size: 32px;
+    }
+
+    .bg-search p {
+        margin: 10px;
+        padding-top: 40px;
+        font-size: 18px;
+    }
+
+    /* Attractive destination */
+
+    .destinations h2 {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .carousel-explain {
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+    }
+
+    .words h2 {
+        padding-top: 24px;
+        color: brown;
+        /* border:2px solid red; */
+        font-size: 26px;
+    }
+
+    .words h2:hover {
+        font-size: 25px;
+    }
+
+    .words p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* image */
+    .image {
+        position: relative;
+        height: 356px;
+        /* border: 2px solid blue ; */
+    }
+
+    .image__img {
+        display: block;
+        height: 356px;
+    }
+
+    .image__title {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .image__description {
+        font-size: .5em;
+        margin-top: 0.25em;
+    }
+
+    /*top attractions  */
+    .top-attaractions {
+        flex-wrap: wrap;
+            }
+
+    .card {
+        margin: 15px;
+        /* text-align: ; */
+    }
+
+    .card-img-top {
+        height: 200px;
+        /* border:4px solid white; */
+    }
+
+    .card-img-top:hover {
+        height: 210px;
+
+    }
+
+    .card-title {
+        /* border:2px solid blue; */
+        font-size: 20px;
+    }
+
+    .card-title:hover {
+        font-size: 22px;
+    }
+
+    .card-text {
+        font-size: 17px;
+
+    }
+
+    /* button-singapore attractions */
+    #btnatt-s1,
+    #btnatt-s2 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #btnatt-s3 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 125px;
+    }
+
+    #btnatt-s4,
+    #btnatt-s5 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    /* attractions malasia-button */
+    #btnatt-m1,
+    #btnatt-m2,
+    #btnatt-m3,
+    #btnatt-m5 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #btnatt-m4 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 67px;
+    }
+
+    /* Usa attracrions button */
+    #btnatt-u1,
+    #btnatt-u3 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 74px;
+    }
+
+    #btnatt-u2 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 48px;
+    }
+
+    #btnatt-u3 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 74px;
+    }
+
+    #btnatt-u4 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #btnatt-u5 {
+        display: block;
+        width: 110px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    /* youtube videos */
+
+    .video {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* align-items: center; */
+    }
+
+    /* .photos {
+    position: relative;
+    width: 300px;
+    margin: 12px;
+    
+} */
+
+    .image__titlegal {
+        font-size: 12px;
+    }
+
+    .list-group {
+        width: 700px;
+        margin-left: 30px;
+    }
+
+    .list {
+
+        font-size: 18px;
+        /* margin:10px; */
+        padding: 30px;
+    }
+}
